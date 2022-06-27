@@ -1,6 +1,4 @@
 
-![AirBnB clone logo.](/img/"AirBnB Clone logo.")
-
 # holbertonschool-AirBnB_clone
 
 This repository is the first part of a big project. We will create a clone of Airbnb, create objects and interact with them

@@ -14,7 +14,7 @@ We will see the different commands that we can use in our Interpreter
 
 
 # Create
-# Show
+# Read
 # All
 # Update
 # Destroy

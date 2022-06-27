@@ -1,5 +1,6 @@
 
 # holbertonschool-AirBnB_clone
+![Uploading LOGO-PROJECT (1).png…]()
 
 This repository is the first part of a big project. We will create a clone of Airbnb, create objects and interact with them
 
@@ -22,3 +23,4 @@ We will see the different commands that we can use in our Console
 
 # Authors
 Siham Badyine and Gregoire Coudrin
+

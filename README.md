@@ -10,7 +10,7 @@ git clone https://github.com/Sb0009/holbertonschool-AirBnB_clone.git
 
 ---
 # How to use
-We will see the different commands that we can use in our Console
+We will see the different commands that we can use in our Interpreter
 
 
 # Create

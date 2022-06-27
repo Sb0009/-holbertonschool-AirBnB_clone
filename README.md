@@ -1,6 +1,7 @@
 
 # holbertonschool-AirBnB_clone
-![Uploading LOGO-PROJECT (1).png…]()
+![LOGO-PROJECT (1)](https://user-images.githubusercontent.com/96126445/175940796-03af2d43-d980-418a-99db-b34267f80a12.png)
+
 
 This repository is the first part of a big project. We will create a clone of Airbnb, create objects and interact with them
 

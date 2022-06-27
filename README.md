@@ -1,5 +1,5 @@
 
-![AirBnB clone logo.](/img/logo_airbnb.png "AirBnB Clone logo.")
+![AirBnB clone logo.](/img/"AirBnB Clone logo.")
 
 # holbertonschool-AirBnB_clone
 

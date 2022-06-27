@@ -24,3 +24,6 @@ We will see the different commands that we can use in our Console
 # Authors
 Siham Badyine and Gregoire Coudrin
 
+<div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="siham-b-523a36230" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/siham-badyine-523a36230?trk=profile-badge">Siham B.</a></div>
+              
+<p><img src="Images/logo_linkd.png" alt="logo social media" width="42px"></p>

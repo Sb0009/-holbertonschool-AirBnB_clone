@@ -14,7 +14,7 @@ We will see the different commands that we can use in our Interpreter
 
 
 # Create
-# Read
+# Show 
 # All
 # Update
 # Destroy
@@ -24,5 +24,5 @@ We will see the different commands that we can use in our Interpreter
 # Authors
 
 <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="siham-b-523a36230" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/siham-badyine-523a36230?trk=profile-badge">Siham B.</a></div>
-              
+
 and Gregoire Coudrin

@@ -12,3 +12,17 @@ from models.amenity import Amenity
 class HBNBCommand(cmd.Cmd):
 
 
+prompt = '(hbnb)'
+
+
+def do_quit(self, arg):
+        """quit the program"""
+        return True
+
+    def do_EOF(self,arg):
+
+        """Quit the program"""
+
+        print('')
+        return True
+

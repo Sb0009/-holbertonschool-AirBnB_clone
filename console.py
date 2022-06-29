@@ -5,7 +5,7 @@ Module that contains the entry point of the command interpreter
 import cmd
 
 class HBNBCommand(cmd.Cmd):
-<<<<<<< HEAD
+
     """ console class """
 prompt = "(hbnb)"
 # storage = models.storage
@@ -21,7 +21,7 @@ def do_EOF(self, arg):
 
     print('')
     return True
-=======
+
 
     prompt = '(hbnb)'
 
@@ -36,4 +36,4 @@ def do_EOF(self, arg):
     def do_EOF(self,arg):
         """Quit the program"""
         return True
->>>>>>> 8811a5db9fcf38a0ccb9ae62597430194ee3c950
+

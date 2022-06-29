@@ -1,23 +1,21 @@
-#!/usr/bin/env python3
-
+#!/usr/bin/python3
+"""
+Module that contains the entry point of the command interpreter
+"""
 import cmd
 
 class HBNBCommand(cmd.Cmd):
 
-    prompt = '(hbnb) '
+    prompt = '(hbnb)'
 
     def emptyline(self):
         """Does nothing when empty line is entered"""
         pass
 
-    def do_quit(self):
-        """Exits console"""
-        return True
+    def do_quit(self, arg):
+            """quit the program"""
+            return True
 
-    def do_EOF(self):
-        """Exits console"""
+    def do_EOF(self,arg):
+        """Quit the program"""
         return True
-
-    def do_help(self, arg: str):
-        """Help command"""
-        return super().do_help(arg)

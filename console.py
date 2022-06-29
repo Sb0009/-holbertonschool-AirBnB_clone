@@ -10,19 +10,18 @@ from models.amenity import Amenity
 
 
 class HBNBCommand(cmd.Cmd):
-
-
-prompt = '(hbnb)'
+    """ console class """
+prompt = "(hbnb)"
+# storage = models.storage
 
 
 def do_quit(self, arg):
-        """quit the program"""
-        return True
+    """quit the program"""
+    return True
 
-    def do_EOF(self,arg):
 
-        """Quit the program"""
+def do_EOF(self, arg):
+    """Quit the program"""
 
-        print('')
-        return True
-
+    print('')
+    return True

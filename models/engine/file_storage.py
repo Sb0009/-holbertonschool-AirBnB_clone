@@ -7,8 +7,16 @@ BaseModel class instances
 import json
 import os
 from models.base_model import BaseModel
+from models.user import User
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.review import Review
+
 
 class FileStorage():
+    """This class contains method to serialize and deserialize instances of
+    BaseModel"""
     __file_path = 'file.json'
     __objects = {}
 
@@ -18,8 +26,8 @@ class FileStorage():
 
     def new(self, obj):
         """Adds an object to the dictionnary __objects"""
-        keys= obj.__class__.__name__ + '.' + obj.id
-        self.__objects[keys]= obj
+        keys = obj.__class__.__name__ + '.' + obj.id
+        self.__objects[keys] = obj
 
     def save(self):
         """Serializes __objects to the file __file_path"""
@@ -36,4 +44,4 @@ class FileStorage():
             with open(FileStorage.__file_path) as my_file:
                 my_dict = json.load(my_file)
             for k, v in my_dict.items():
-                FileStorage.__objects[k] = BaseModel(**v)
+                FileStorage.__objects[k] = eval(v['__class__'])(**v)

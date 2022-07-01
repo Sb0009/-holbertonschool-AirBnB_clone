@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""This module contains the class Place"""
+"""
+This module contains the Place class that inherits from BaseModel
+"""
 from models.base_model import BaseModel
 
 

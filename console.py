@@ -2,6 +2,7 @@
 """
 Module that contains the entry point of the command interpreter
 """
+
 import cmd
 import models
 
@@ -12,10 +13,6 @@ class HBNBCommand(cmd.Cmd):
     prompt = '(hbnb) '
     models_list = ["BaseModel", "User", "State", "City", "Amenity", "Place",
                    "Review"]
-
-    def emptyline(self):
-        """Does nothing when empty line is entered"""
-        pass
 
     def do_quit(self, arg):
         """Exits the program"""

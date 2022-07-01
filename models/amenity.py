@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""This module contains the class Amenity"""
+"""
+This module contains the Amenity class that inherits from BaseModel
+"""
 from models.base_model import BaseModel
 
 

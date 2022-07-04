@@ -1,6 +1,5 @@
 
 #!/usr/bin/python3
-# task 9
 
 """create the class"""
 
@@ -12,4 +11,3 @@ class Amenity(BaseModel):
     """create the class"""
 
     name = ''
-

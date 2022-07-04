@@ -83,7 +83,6 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb)
 $
-```
 ### :eight_spoked_asterisk: Command :eight_spoked_asterisk:
 | Command | Usage |Description |
 | :---: | :---: |:---: |

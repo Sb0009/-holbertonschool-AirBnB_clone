@@ -3,9 +3,14 @@
 """Module that tests the amenity class
 """
 
-
 import unittest
+from datetime import datetime
+from time import sleep
 from models.amenity import Amenity
+from models.base_model import BaseModel
+from unittest.mock import patch
+import pycodestyle
+import models
 
 
 class TestAmenity(unittest.TestCase):

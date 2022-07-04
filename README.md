@@ -93,8 +93,7 @@ $
 | Updated | update<class name\> <id\> <attribute name\> <attribute value\> |  Updates an instance based on the class name and id by adding or updating attribute (saves the changes into a JSON file). |
 | all | all <class name\> |  Prints all string representation of all instances based on the class name. |
 | Destroy | destroy <class name\> <id\>  | Deletes an instance based on the class name and id . |
-```
----
+
 
 # Authors
 

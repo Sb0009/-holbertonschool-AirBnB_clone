@@ -33,6 +33,35 @@ EOF  help  quit
 (hbnb)
 (hbnb) quit
 $
+
+#### Interactive mode
+
+```
+user@ubuntu::~/AirBnB_clone$ ./console.py
+(hbn) all
+[]
+(hbn)
+```
+Now, we are going to start with the command  ***create***
+ For this command you can create different classes in different files like these:
+
+* BaseModel ------- (```Class```)
+* City ----------------- (```Inherited class from base models```)
+* Place ----------------- (```Inherited class from base models```)
+* Amenity ----------------- (```Inherited class from base models```)
+* State ----------------- (```Inherited class from base models```)
+* Review ----------------- (```Inherited class from base models```)
+
+
+--- ```Public instance atributes``` ---
+  * id
+  * created
+  * updated
+
+
+```
+
+
 ```
 #### Non-Interactive mode
 In this **Non-Interactive** mode the console will display a prompt (hbnb) but need to be run with a command input piped into its execution so that the command is running as soon as the console starts. In this mode no prompt will appear, and no further input will be expected from the user.

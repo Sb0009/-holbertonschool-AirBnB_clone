@@ -1,14 +1,15 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
-"""Module to Test
-"""
-
-
-import pep8
+"""Test Base Model"""
+from datetime import datetime
 import unittest
-import uuid
+import inspect
+import models
 from models.base_model import BaseModel
-from datetime import datetime, date
+from unittest import mock
+from unittest.mock import MagicMock
+from time import sleep
+import pycodestyle
 
 
 class TestBaseModel(unittest.TestCase):

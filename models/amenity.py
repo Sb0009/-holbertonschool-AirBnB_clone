@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 
 #!/usr/bin/python3
+# task 9
 
 """create the class"""
 
@@ -17,3 +18,4 @@ from models.base_model import BaseModel
 class Amenity(BaseModel):
     """This class contains the name of an amenity"""
     name = ''
+

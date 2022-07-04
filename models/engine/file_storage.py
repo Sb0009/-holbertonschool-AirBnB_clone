@@ -14,7 +14,6 @@ from models.amenity import Amenity
 from models.review import Review
 
 
-
 class FileStorage():
     """This class contains method to serialize and deserialize instances of
     BaseModel"""
@@ -27,8 +26,8 @@ class FileStorage():
 
     def new(self, obj):
         """Adds an object to the dictionnary __objects"""
-        keys = obj.__class__.__name__ + '.' + obj.id
-        self.__objects[keys] = obj
+        keys= obj.__class__.__name__ + '.' + obj.id
+        self.__objects[keys]= obj
 
     def save(self):
         """Serializes __objects to the file __file_path"""

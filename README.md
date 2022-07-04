@@ -60,7 +60,7 @@ $
 | :---: | :---: |:---: |
 | quit *or* EOF |  | Exits the program |
 | Help | help **<command\>** | Provides a text describing how to use a command. |
-| Created | create **<class name\>** |  creates an object of the class declared by user; |
+| Created | create **<class name\>** |  Creates an object of the class declared by user; |
 | Show | show **<class name\> <id\>** | Prints the string representation of an instance based on the class name and id  |
 | Updated | update<class name\> <id\> <attribute name\> <attribute value\> |  Updates an instance based on the class name and id by adding or updating attribute (saves the changes into a JSON file). |
 | all | all <class name\> |  Prints all string representation of all instances based on the class name. |

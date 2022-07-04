@@ -1,18 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
-Review class inherits from BaseModel
+This module contains the Review class that inherits from BaseModel
 """
-
-
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """
-    Review class that defines public class
-    atributes with tree  empty strings
-    """
-
-    place_id = ""
-    user_id = ""
-    text = ""
+    """This class defines a review"""
+    place_id = ''
+    user_id = ''
+    text = ''

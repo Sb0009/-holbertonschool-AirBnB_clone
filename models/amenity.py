@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-
-"""create the class"""
+"""
+Amenity class inherits from BaseModel
+"""
 
 
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """create the class"""
+    """
+    Amenity Class that defines public class attribute
+    with empty string
+    """
 
-    name = ''
+    name = ""

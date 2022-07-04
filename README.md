@@ -37,7 +37,7 @@ $
 #### Interactive mode
 
 ```
-user@ubuntu::~/AirBnB_clone$ ./console.py
+user@ubuntu::~/AirBnB$ ./console.py
 (hbn) all
 []
 (hbn)
@@ -53,7 +53,7 @@ Now, we are going to start with the command  ***create***
 * Review ----------------- (```Inherited class from base models```)
 
 
---- ```Public instance atributes``` ---
+--- ```Public instance attributes``` ---
   * id
   * created
   * updated

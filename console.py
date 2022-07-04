@@ -4,6 +4,16 @@ Module that contains the entry point of the command interpreter
 """
 
 import cmd
+from models.engine.file_storage import FileStorage
+import json
+from datetime import datetime
+from models.base_model import BaseModel
+from models.place import Place
+from models.state import State
+from models.city import City
+from models.amenity import Amenity
+from models.review import Review
+from models.user import User
 import models
 
 
@@ -11,8 +21,8 @@ class HBNBCommand(cmd.Cmd):
     """This class contains method to operate the HBNB command console"""
 
     prompt = '(hbnb) '
-    models_list = ["BaseModel", "User", "State", "City", "Amenity", "Place",
-                   "Review"]
+    models_list = {"BaseModel": BaseModel, "User": User, "State": State, "City": City,
+           "Amenity": Amenity, "Place": Place, "Review": Review}
 
     def do_quit(self, arg):
         """Exits the program"""

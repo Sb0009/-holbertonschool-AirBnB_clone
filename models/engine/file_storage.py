@@ -13,6 +13,28 @@ from models.city import City
 from models.amenity import Amenity
 from models.review import Review
 
+
+class FileStorage:
+    """
+    This class allows you to create an object that interacts with the created
+    instances and with the file.JSON file as follow:
+    Attributes:
+    __file_path: contains the path / name of the file.
+    __objects: It is an initially empty dictionary where elements will be
+    added, updated or deleted based on the objects created.
+    Methods:
+    all: returns __objects
+    new: adds an item to the __objects dictionary.
+    save: saves the updated  dictionary to the file specified in the
+    __file_path variable.
+    reload: load __objects the file information from the __file_path variable.
+    remove - removes an item from the __objects dictionary.
+    """
+
+    __file_path = "file.json"
+    __objects = {}
+
+
 class FileStorage():
     """This class contains method to serialize and deserialize instances of
     BaseModel"""
@@ -25,8 +47,8 @@ class FileStorage():
 
     def new(self, obj):
         """Adds an object to the dictionnary __objects"""
-        keys= obj.__class__.__name__ + '.' + obj.id
-        self.__objects[keys]= obj
+        keys = obj.__class__.__name__ + '.' + obj.id
+        self.__objects[keys] = obj
 
     def save(self):
         """Serializes __objects to the file __file_path"""
